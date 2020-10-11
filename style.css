@@ -1,0 +1,136 @@
+
+hr{
+    border: none;
+    border-top: 1px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+.back{
+    background-image:url('fond.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100%;
+    padding: 100px 30px;
+
+}
+#p{
+    float: left;
+    font-style: italic;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-justify: newspaper;
+}
+h1{
+        letter-spacing: 3px;
+        color:rgb(245, 240, 240);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 500%;
+        font-style: italic;
+    
+    }
+h2{
+        text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+        letter-spacing: 3px;
+        color :gray;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 300%;
+}
+.in
+{
+    display: flex;
+    padding: 60px 30px;
+    justify-content:space-around;
+  align-items: center;
+}
+.button {
+    background-color: rgb(75, 72, 72);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    widows: 250px;
+  }
+.nav{
+    background-color:grey;
+   }
+a{
+  float: right;
+  background-color: rgb(163, 161, 161);
+  font-size: 120%;
+  margin: 0 10px;
+}
+   .apropos{
+       padding: 50px 100px;
+   }
+   .fond{
+       background-image: url('8198.jpg');
+       background-size: cover;
+   }
+   .comp{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 50px 100px;
+  }
+  #border{
+    border-radius: 20px;
+  }
+  .bor:hover{
+      border-radius: 50%;
+  }
+.footr{
+    bottom: 0;
+    background-color: gray;
+}
+.footer{
+    width: 80%;
+    text-align: center;
+    align-content: center;
+}
+  legend {
+    padding: 0px 6px;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+  label {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 12px;
+  }
+  input, textarea {
+    width: 249px;
+  }
+   
+  textarea {
+    height:100px;
+  }
+  input[type=submit] {
+    width: 100px;
+    padding: 5px;
+  }
+  .contact{
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+  }
+  .head:hover{
+    background-color:whitesmoke;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nv{
+  display: flex;
+  flex:end;
+  float:right;
+  
+}
+.fl{
+  float: right;
+}
+
+ 
